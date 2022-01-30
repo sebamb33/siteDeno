@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" media=all>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nunito:wght@200&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="./script.js" defer></script>
+    <title>Deno</title>
+</head>
+<body>
+    <div class="leftPart">
+        <h1 class="titleImage">Deno</h1>
+        <img src="./images/logo.svg" alt="logo de l'environement d'execution deno" class="logoDeno">
+        <ul class="navMap">
+            <li>Présentation</li>
+            <li>Installation</li>
+            <li>Démonstration</li>
+            <li>Comparaison</li>
+        </ul>
+    </div>
+    <div class="rightPart">
+        <div class="presentation">
+            <p class="titleRightPart">
+                Présentation
+            </p>
+            <p class="textRightPart">
+                Deno est un environnement javascript  basé sur le moteur v8 même moteur que chromium ainsi que sur le langage Rust. <br>
+                Cette environement à était crée par Ryand dahl. il a pour but de régler certains souci de nodeJs. Nottament en termes de <br> 
+                sécurité.
+            </p>
+        </div>
+        <div class="installation">
+            <p class="titleRightPart">
+                Instalation
+            </p>
+            <p class="textRightPart">
+                Deno est installable sur la plupart des machines (Linux,Windows,Macos). 
+            </p>
+            <div class="Installation">
+                <p class="TitleInstallation">Installation sous Windows avec powershell</p>
+                <p class="codeInstallation">iwr https://deno.land/x/install/install.ps1 -useb | iex</p>
+                <p class="TitleInstallation">Installation sous Linux fonctionne aussi sous Mac</p>
+                <p class="codeInstallation">curl -fsSL https://deno.land/x/install/install.sh | sh</p>
+                <p class="TitleInstallation">Installation sous mac avec Homebrew</p>
+                <p class="codeInstallation">brew install deno</p>
+            </div>
+
+        </div>
+        <div class="demonstration">
+            <p class="titleRightPart">
+                Démonstration
+            </p>
+            <p class="textRightPart">
+                A l'utilisation Deno ce différencie de node surtout par les permissions <br>
+            </p>
+            <p class="titleDemonstration">
+                la liste des permission est : 
+            </p>
+            <ul class="ListPermission">
+                <li>--allow-write : Permission d'écrire</li>
+                <li>--allow-read  : Permission de lire</li>
+                <li>--allow-net   : Permission d'accés réseaux</li>
+                <li>--allow-env   : Permission d'accès aux variables d'environement</li>
+            </ul>
+            <p class="titleDemonstration">
+                Exemple création d'un fichier text avec Deno 
+            </p>
+            <p class="texteDemonstration">
+                Ici un exemple d'un fichier js qu'on va executer avec Deno.
+            </p>
+            <img src="./images/Code_creation_texte.png" alt="Code qui crée un fichier texte en js" class="imageCode">
+            <p class="titleDemonstration">
+                Execution d'un script avec deno.
+            </p>
+            <p class="texteDemonstration">
+                Comme indiqué ci-dessus à la différence de node deno utilise un système de permission. il ne faut donc pas les oublier <br>
+                lors de l'éxecution des programmes.
+            </p>
+            <img src="./images/terminal_execution.png" alt="Commande dans le terminal pour executer deno" class="terminal"> 
+            <p class="titleDemonstration">
+                Création d'un serveur  avec deno.
+            </p> 
+            <p class="texteDemonstration">
+                Avec deno nous pouvons crée un serveur via un script.
+            </p>
+            <img src="./images/Code_creation_serveur.png" alt="Code en js pour creer un serveur en deno"class="imageCodeServer">
+            <p class="texteDemonstration">
+                Ne pas oublier lors de l'execution de donner les permissions.
+            </p>
+            <img src="./images/terminal_execution_server.png" alt="Image du terminal mentrant la commande pour executer le serveur">     
+        </div>
+        <div class="comparaison">
+            <p class="titleRightPart">
+                Comparaison
+            </p>
+            <p class="textRightPart">
+                Les deux ayants principalement les mêmes fonctionnalités. Il y'a très peux de points qui les différe <br>
+                Mais deno apporte plus de securité et aussi un meilleur support du TypeScript
+            </p>
+            <table class="tableauxComparatif">
+                <tr>
+                    <th>Caractéristique</th>
+                    <th>Deno</th>
+                    <th>Node</th>
+                </tr>
+                <tr>
+                    <td class="carac">Support natif de TypeScript</td>
+                    <td class="caracItem">✅</td>
+                    <td class="caracItem">❌</td>
+                </tr>
+                <tr>
+                    <td class="carac">Gestion avancée des permissions</td>
+                    <td class="caracItem">✅</td>
+                    <td class="caracItem">❌</td>
+                </tr>
+                <tr>
+                    <td class="carac">Grand nombre d'utilisateurs</td>
+                    <td class="caracItem">❌</td>
+                    <td class="caracItem">✅</td>
+                </tr>
+                <tr>
+                    <td class="carac">Vaste écosystème</td>
+                    <td class="caracItem">❌</td>
+                    <td class="caracItem">✅</td>
+                </tr>
+            </table>
+        </div>
+        <div class="navigationArrow">
+            <img src="./images/left-arrow.png" alt="logo de la flèche vers la gauche"class="arrowLeft">
+            <img src="./images/right-arrow.png" alt="Logo de la fleche vers la droite "class="arrowRight">
+        </div>
+    </div>
+</body>
+</html>

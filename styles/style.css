@@ -1,0 +1,126 @@
+/*font-family: 'Dongle', sans-serif;*/
+/*font-family: 'Nunito', sans-serif;*/
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100em;
+}
+.leftPart
+{
+    margin-top: auto;
+    display: flex;
+    height: 35%;
+    width: 20%;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em;
+    padding: 3em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.rightPart{
+    padding-left: 2em;
+    padding: 4em;
+    width: 60%;
+}
+.titleImage{
+    font-family: 'Dongle', sans-serif;
+    font-size: 5em; 
+    font-weight: 700;
+}
+ul{
+    padding-left: 0;
+    list-style-type: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5em;
+}
+.logoDeno{
+    height: 90px;
+    width: 90px;
+}
+.titleRightPart{
+    font-size: 5em;
+    font-family: 'Dongle', sans-serif;
+    margin: 10px auto;
+}
+.textRightPart{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+}
+.arrowRight{
+    height: 30px;
+    width: 30px;
+}
+.arrowLeft{
+    height: 30px;
+    width: 30px;
+}
+.TitleInstallation{
+    font-family: 'Dongle', sans-serif;
+    font-size: 3em;
+}
+.codeInstallation{
+    background-color: #EFF4FF;
+    padding: 1em;
+    border-radius: 3px;
+}
+.navigationArrow{
+    padding-top: 1.5em;
+}
+.titleDemonstration{
+    font-family: 'Dongle', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+.ListPermission{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+}
+.imageCode{
+    width:50%;
+    border-radius: 5px;
+}
+.texteDemonstration{
+    font-family: 'Nunito', sans-serif;
+}
+.terminal{
+    border-radius: 5px;
+}
+.imageCodeServer{
+    width: 80%;
+    border-radius: 5px;
+}
+.tableauxComparatif{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+.tableauxComparatif th{
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5em;
+    border: solid 5px #EFF4FF;
+    
+}
+.tableauxComparatif .carac
+{
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.tableauxComparatif .caracItem{
+    text-align: center;
+}
+.tableauxComparatif{
+    border: 2px solid #EFF4FF;
+}
+.tableauxComparatif td{
+    border: 2px solid #EFF4FF;
+}
+.menuActif{
+    background: #EFF4FF;
+    border-radius: 7px;
+    margin: 30px;
+    padding: 10px;
+    font-weight: bolder;
+}
