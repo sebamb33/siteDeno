@@ -42,3 +42,12 @@ arrowRight.addEventListener("click",function(){
 arrowLeft.addEventListener("click",function(){
     ChangeAffichage("Left")
 });
+//Gestion du clic sur un élément du menu 
+const tabMenu = document.querySelectorAll(".navMap li")
+for(let unMenu of tabMenu)
+{
+ unMenu.addEventListener("click",function(){
+    numPage=unMenu.id
+    ChangeAffichage("");
+ });
+}
