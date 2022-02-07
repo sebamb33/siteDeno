@@ -119,15 +119,14 @@ ul{
 .menuActif{
     background: #EFF4FF;
     border-radius: 7px;
-    margin: 30px;
+    margin: 10px 0px;
     padding: 10px;
     font-weight: bolder;
 }
 .terminal{
     width: 70%;
 }
-.navmap 
-{
+.leftPart li {
     cursor: pointer;
 }
 
@@ -154,6 +153,7 @@ ul{
     }
     .leftPart li {
         margin: 20px;
+        cursor: pointer;
     }
     img{
         width: 90%;
